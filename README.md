@@ -21,7 +21,7 @@ You will modify 4 python functions in logistic prog.py. First, you will implemen
 that train and test a one-versus-rest multi-class classification model. Second, you will implement
 two functions that train and test a multinomial logistic regression model. Finally, you will run script q43.sh that trains and tests the two models using your implemented functions, and store your results to logistic res.json. TAs wrote functions to load, relabel, and sample the data for you, so you are not responsible for doing it. TAs have also pre-defined the hyperparameters and initializations in the template code. Moreover, you will use the AVERAGE of gradients from all training samples to update the parameters.
 
-**One-versus-rest**
+**One-versus-rest:**
 Implement the code to solve the multi-class classification task with the one-versus-rest
 strategy. That is, train 10 binary logistic regression models following the setting provided in class:
 for each class Ck, k = 1,. . ., 10, we create a binary classification problem as follows:
@@ -29,6 +29,6 @@ for each class Ck, k = 1,. . ., 10, we create a binary classification problem as
 - Re-label other samples as negative (namely 0)
 
 
-**Multinomial logistic regression**
+**Multinomial logistic regression:**
 Implement the multinomial logistic regression, training a 10-way classifier (with the softmax
 function) on mnist subset dataset. 
